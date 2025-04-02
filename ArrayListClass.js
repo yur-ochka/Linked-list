@@ -61,6 +61,10 @@ class ArrayListClass {
   extend(elements) {
     this.data = [...this.data, ...elements.data];
   }
+
+  getFullList() {
+    return this.data;
+  }
 }
 
 module.exports = ArrayListClass;
